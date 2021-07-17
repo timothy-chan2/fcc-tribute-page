@@ -1,0 +1,52 @@
+body {
+  background: url('images/blue_rivers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FFEBCD; /* Backup in case the background image doesn't load */
+  font-family: Helvetica;
+  color: #00008B;
+  text-align: center;
+}
+
+#img-div {
+  background-color: #d5dbb3;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+#image {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+}
+
+a:hover, a:focus {
+  color: #34134E;
+}
+
+.text-box {
+  background-color: rgba(146, 189, 121,0.9);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#img-caption {
+  padding-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .text-box {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
