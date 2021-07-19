@@ -44,6 +44,15 @@ a:hover, a:focus {
   padding-top: 15px;
 }
 
+footer {
+  font-size: 0.6em;
+  padding-top: 10px;
+}
+
+.footer-spacing {
+  padding: 4px 0 4px 0;
+}
+
 @media (max-width: 1000px) {
   .text-box {
     margin-left: 5%;
