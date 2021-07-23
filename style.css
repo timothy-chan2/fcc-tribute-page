@@ -16,6 +16,7 @@ body {
 
 #image {
   max-width: 60%;
+  width: auto;
   height: auto;
   display: block;
   margin-left: auto;
